@@ -2,8 +2,9 @@
 """
 Module - 2-floor
 """
+import math
 
 
 def floor(n: float) -> int:
     """returns rounded value"""
-    return round(n)
+    return math.round(n)
