@@ -7,4 +7,4 @@ import math
 
 def floor(n: float) -> int:
     """returns rounded value"""
-    return math.round(n)
+    return math.floor(n)
