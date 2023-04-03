@@ -2,13 +2,12 @@
 """
 Module - 0-basic_async_syntax
 """
-
 import asyncio
 import random
 
 
-async def wait_randoms(wait_random: float =10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """simple async"""
-    delay: float = random.uniform(0, wait_random)
+    delay: float = random.uniform(0, max_delay)
     await asyncio.sleep(delay)
     return delay
